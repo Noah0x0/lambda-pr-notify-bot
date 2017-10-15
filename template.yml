@@ -56,13 +56,13 @@ Resources:
                 httpMethod: POST
                 type: aws
                 uri:
-                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${PrNotifyBot.Arn}/invocations
+                  Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${NoahPrNotifyBot.Arn}/invocations
         definitions:
           Empty:
             type: "object"
             title: "Empty Schema"
 
-  PrNotifyBot:
+  NoahPrNotifyBot:
     Type: AWS::Serverless::Function
     Properties:
       Handler: dist/index.handler

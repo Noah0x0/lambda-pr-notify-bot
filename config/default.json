@@ -3,7 +3,11 @@
   "pathPrefix": "",
   "organization": "",
   "reviewers": [
-    "matsushita-kentaro"
+    "runble1",
+    "mafuyuk",
+    "usagi-f",
+    "mesh1neko",
+    "Ihara-kenta"
   ],
   "approveComments": [
     "+1",
@@ -11,13 +15,16 @@
   ],
   "numApprovers": 1,
   "slackUsers": {
-    "matsushita-kentaro": "kentaro",
-    "kentaro-m": "kentaro"
+    "runble1": "nishiyama-wataru",
+    "mafuyuk": "mafuyu",
+    "usagi-f": "usagi-f",
+    "mesh1neko": "mesh1nek0x0",
+    "Ihara-kenta": "ihara-kenta"
   },
   "message": {
-    "requestReview": "Please review this pull request.",
-    "ableToMerge": "Able to merge this pull request.",
-    "mentionComment": "Please check this review comment."
+    "requestReview": "レビューお願いします",
+    "ableToMerge": "マージできます (レビュー済み)",
+    "mentionComment": "コメントの確認お願いします"
   },
   "assignReviewers": true,
   "requestReview": true,
